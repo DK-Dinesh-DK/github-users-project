@@ -22,13 +22,14 @@
 .card {
   padding: 20px;
   width: 70%;
-  background-color:hsl(26.48deg 100% 52.2%);
+  background-color: hsl(26.48deg 100% 52.2%);
   color: white;
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   column-gap: 10px;
+  cursor: pointer;
 }
 .name-details {
   display: flex;
@@ -37,7 +38,13 @@
   flex-direction: column;
 }
 .name-details > div {
-    display: flex;
-    justify-content: flex-start;
-    column-gap: 5px;
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 5px;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20%;
 }
